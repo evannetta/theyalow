@@ -1,0 +1,126 @@
+.wrapper{
+   
+    width: 1300px;
+    background: white;
+}
+header{
+     background: url(./assets/header-background.png);
+     height: 570px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0 0px 140px;
+    height: 160px;
+}
+.logo{
+    display: flex;
+    height: 115px;
+    width: 320px;
+    align-items: center;
+    margin: 21px 0px 0 0px;
+}
+.logo img{
+    margin: 0px 0px 20px -2px;
+}
+
+h1{
+    font-size: 41px;
+    color: white;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    margin: 0px 5px 12px;
+    letter-spacing: 4px;
+    font-weight: normal;
+}
+p{
+    margin: 8px 0 0 0;
+}
+.header-nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #9b7d08;
+    font-family: "Segoe WP";
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+.header-nav a img{
+    height: fit-content;
+    padding: 8px;
+}
+
+.header-nav ul{
+    display: flex;
+    margin: 70px 105px 0 0;
+    color: transparent;
+}
+.header-nav li{
+    border: 1px solid ;
+    background-color: #f5c506;
+    border-right-color: #dcb105;
+    width: 150px;
+    z-index: 5;
+}
+.header-nav li:hover{
+   background-color: #dcb105;
+ }
+.nav-shadow{
+    z-index: 4;
+    background-color:#dcb105;
+    position: relative;
+    width: 453px;
+    height: 40px;
+    top: -45px;
+    left: 36px;
+    opacity: 0.5;
+}
+.shadow-two{
+    z-index: 3;
+    top: -89px;
+    left: 31px;
+}
+.player1{
+    margin: 9px 0;
+    display: flex;
+}
+.player1 p span{
+    color: #f5c506;
+}
+.player1 p{
+    flex-grow: 4;
+    font-size: 63px;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Segoe WP';
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    width: 400px;
+}
+.video{
+    flex-grow: 4;
+}
+.slider-button{
+    border: 0px;
+    padding: 0;
+    background-color: transparent;
+    flex-grow: 1;
+}
+.icon-area{
+    background-image: url(./assets/icon-area-background.png);
+
+}
+
+@font-face {
+    font-family: 'Segoe WP';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe WP'), url('./assets/SegoeWP.woff') format('woff');
+}
+@font-face {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Asap'), url('./assets/Asap-Regular.otf') format('otf');
+}
