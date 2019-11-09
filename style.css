@@ -121,8 +121,9 @@ h1 {
   display: flex;
   height: 212px;
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+  position: relative;
 }
-.icon-area div {
+.indent {
   width: 140px;
 }
 .icon-area figure {
@@ -143,6 +144,76 @@ h1 {
 
 .icon-area figcaption {
   text-align: center;
+  /* word-spacing: 2px; */
+}
+
+.player2 {
+  background-image: url(./assets/player2-background.png);
+  height: 507px;
+}
+
+.player2-text {
+  width: 340px;
+  color: white;
+  background-color: #ec9e03;
+  font-size: 29px;
+  line-height: 38px;
+  font-family: "Segoe WPL";
+  padding: 17px 29px;
+  box-sizing: border-box;
+  height: 234px;
+  margin: 0;
+  word-spacing: 1.1px;
+  letter-spacing: 0.2px;
+  word-wrap: break-word;
+}
+
+.player2-header {
+  font-size: 37px;
+  color: #ffffff;
+  font-family: "PT Sans";
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 140px;
+  padding-top: 30px;
+  word-spacing: 2.3px;
+}
+.player2-wraper {
+  display: flex;
+  height: 234px;
+  margin-top: 31px;
+}
+#twitter {
+  margin-left: 33px;
+}
+#data {
+  margin-left: 140px;
+  display: block;
+}
+#scroll {
+  display: block;
+  margin: 41px 210px 0;
+}
+footer {
+  background-color: #4c4c4c;
+  height: 496px;
+}
+.footer-header {
+  text-transform: uppercase;
+  width: 1300px;
+  font-size: 43px;
+  color: #f5c506;
+  font-family: "PT Sans";
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 1.1px;
+  word-spacing: -4px;
+  margin: 0;
+  padding: 35px 0px 0;
+}
+.footer-main {
+  height: 300px;
+    display: flex;
 }
 @font-face {
   font-family: "Segoe WP";
@@ -159,6 +230,12 @@ h1 {
 @font-face {
   font-family: "Segoe WPL";
   font-style: normal;
-  font-weight: normal;
+  font-weight: 300;
   src: local("Segoe WPL"), url("./assets/segoe-wp-light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: local("PT Sans"), url("./assets/PTS55F.ttf") format("truetype");
 }
